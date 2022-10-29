@@ -1,7 +1,10 @@
+import Cabecalho from "./Componentes/Cabecalho";
 
 function App() {
   return (
-    <span>Ola Mundo</span>
+    <div>
+      <Cabecalho/>
+    </div>
   );
 }
 
