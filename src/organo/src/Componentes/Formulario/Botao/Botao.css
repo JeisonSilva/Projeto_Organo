@@ -1,0 +1,17 @@
+@import url(../../../colors.css);
+
+.botao__default {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 0px solid;
+    border-radius: 10px;
+    background-color: var(--azul);
+    box-sizing: border-box;
+
+    width: 150px;
+    height: 64px;
+}
