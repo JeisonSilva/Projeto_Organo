@@ -8,10 +8,10 @@ const Formulario = () => {
         <section className="formulario">
             <form>
                 <p>Preencha os dados para criar o card do colaborador</p>
-                <CampoTexto />
-                <CampoTexto />
-                <CampoTexto />
-                <CampoSelecao />
+                <CampoTexto label="Nome" placeholder="Digite seu nome"/>
+                <CampoTexto label="Cargo" placeholder="Digite seu cargo"/>
+                <CampoTexto label="Imagem" placeholder="Informe o caminho da imagem"/>
+                <CampoSelecao label="Time"/>
                 <Botao />
             </form>
         </section>
