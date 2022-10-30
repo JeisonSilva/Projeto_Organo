@@ -1,8 +1,11 @@
 import './CampoSelecao.css'
 
-const CampoSelecao = () =>{
+const CampoSelecao = (props) =>{
     return (
-        <select />
+       <div className='campo__selecao'>
+        <label>{props.label}</label>
+         <select />
+       </div>
     )
 }
 
