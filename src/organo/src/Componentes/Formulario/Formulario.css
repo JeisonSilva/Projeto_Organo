@@ -1,0 +1,26 @@
+@import url(../../colors.css);
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: var(--cinza);
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    padding: 16px 32px;
+    width: 80%;
+    height: 100%;
+    margin: 32px 0 0;
+
+    box-sizing: border-box
+}
+
+.formulario>p {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+
+    margin: 32px 32px;
+}
