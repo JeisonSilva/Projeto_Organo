@@ -1,0 +1,25 @@
+@import url(../../colors.css);
+
+.organizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 5% 0 0 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.organizacao__titulo {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 72px;
+    color: var(--azul);
+}
+
+hr{
+    border: 1px solid var(--azul);
+    width: 64px;
+}
