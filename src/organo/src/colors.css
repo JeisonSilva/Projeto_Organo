@@ -3,5 +3,19 @@
     --verde-claro: #95FFD4;
     --cinza: #F2F2F2;
 
-    
+    --card-programacao:#57C278;
+    --card-frontend:#82CFFA;
+    --card-datascience:#A6D157;
+    --card-devops: #E06B69;
+    --card-uxdesign:#DB6EBF;
+    --card-mobile:#FFBA05;
+    --card-inovacaogestao:#FF8A29;
+
+    --fundo-programacao:#D9F7E9;
+    --fundo-frontend:#E8F8FF;
+    --fundo-datascience:#F0F8E2;
+    --fundo-devops: #FDE7E8;
+    --fundo-uxdesign:#FAE9F5;
+    --fundo-mobile:#FFF5D9;
+    --fundo-inovacaogestao:#FFEEDF;
 }
