@@ -1,5 +1,5 @@
 @import url(../../colors.css);
-
+@import url(./CardHeaderColor.css);
 .card {
     display: flex;
     flex-direction: column;
@@ -18,38 +18,6 @@
     width: 100%;
     height: 90px;
 }
-
-.card__header--programacao {
-    background-color: var(--card-programacao);
-}
-
-.card__header--frontend{
-    background-color: var(--card-frontend);
-}
-
-.card__header--datascience{
-    background-color: var(--card-datascience);
-}
-
-.card__header--devops{
-    background-color: var(--card-devops);
-}
-
-
-.card__header--uxdesign{
-    background-color: var(--card-uxdesign);
-}
-
-.card__header--mobile{
-    background-color: var(--card-mobile);
-}
-
-
-.card__header--inovacaogestao{
-    background-color: var(--card-inovacaogestao);
-}
-
-
 
 .card__img {
     position: absolute;

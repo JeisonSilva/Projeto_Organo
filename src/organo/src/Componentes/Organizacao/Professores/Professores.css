@@ -1,0 +1,59 @@
+@import url(../../../colors.css);
+@import url(../../Card/CardHeaderColor.css);
+
+.professores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+    width: 100%;
+}
+
+.professores__background--programacao {
+    background-color: var(--fundo-programacao);
+}
+
+.professores__background--frontend {
+    background-color: var(--fundo-frontend);
+}
+
+.professores__background--datascience {
+    background-color: var(--fundo-datascience);
+}
+
+.professores__background--devops {
+    background-color: var(--fundo-devops);
+}
+
+.professores__background--uxdesign {
+    background-color: var(--fundo-uxdesign);
+}
+
+.professores__background--mobile {
+    background-color: var(--fundo-mobile);
+}
+
+.professores__background--inovacaogestao {
+    background-color: var(--fundo-inovacaogestao);
+}
+
+.professores__titulo {
+
+    padding: 32px;
+
+}
+
+.professores__titulo>p {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+}
+
+.professores__cards {
+    display: flex;
+    column-gap: 16px;
+}
