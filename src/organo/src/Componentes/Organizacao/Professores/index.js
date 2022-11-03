@@ -4,10 +4,12 @@ import './Professores.css'
 const Professores = (props) => {
     return (
         <div className={`professores ${props.background}`}>
-            <p>{props.titulo}</p>
-
+            <div className='professores__titulo'>
+                <p>{props.titulo}</p>
+                <hr className={props.cardBackgoundHeader}/>
+            </div>
             <div className='professores__cards'>
-                
+
                 {
                     props.prof.map(x => {
                         return <Card key={x.id} style={props.cardBackgoundHeader} foto={x.imagem} nome={x.nome} profissao={x.profissao} />

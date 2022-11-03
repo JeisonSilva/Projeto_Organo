@@ -1,0 +1,36 @@
+.card__header--programacao {
+    background-color: var(--card-programacao);
+    border-color: var(--card-programacao);
+}
+
+.card__header--frontend{
+    background-color: var(--card-frontend);
+    border-color: var(--card-frontend);
+}
+
+.card__header--datascience{
+    background-color: var(--card-datascience);
+    border-color: var(--card-datascience);
+}
+
+.card__header--devops{
+    background-color: var(--card-devops);
+    border-color: var(--card-devops);
+}
+
+
+.card__header--uxdesign{
+    background-color: var(--card-uxdesign);
+    border-color: var(--card-uxdesign);
+}
+
+.card__header--mobile{
+    background-color: var(--card-mobile);
+    border-color: var(--card-mobile);
+}
+
+
+.card__header--inovacaogestao{
+    background-color: var(--card-inovacaogestao);
+    border-color: var(--card-inovacaogestao);
+}
