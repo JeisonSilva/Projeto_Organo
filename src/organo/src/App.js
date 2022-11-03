@@ -6,6 +6,7 @@ import Organizacao from "./Componentes/Organizacao";
 import Card from "./Componentes/Card";
 import Programacao from "./Componentes/Organizacao/Programacao";
 import Frontend from "./Componentes/Organizacao/Prontend";
+import DataScience from "./Componentes/Organizacao/DataScience";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Organizacao titulo="Minha Organização">
         <Programacao titulo="Programação"/>
         <Frontend titulo="Front End"/>
+        <DataScience titulo="Data Sience"/>
       </Organizacao>
     </div>
   );
