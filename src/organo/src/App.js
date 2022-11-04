@@ -4,6 +4,7 @@ import Formulario from "./Componentes/Formulario";
 import './app.css'
 import Organizacao from "./Componentes/Organizacao";
 import Professores from "./Componentes/Organizacao/Professores";
+import Rodape from "./Componentes/Rodape";
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <Professores titulo="UX e Design" background="professores__background--uxdesign" cardBackgoundHeader="card__header--uxdesign" prof={professores} />
         <Professores titulo="Mobile" background="professores__background--mobile" cardBackgoundHeader="card__header--mobile" prof={professores} />
         <Professores titulo="Inovação e Gestão" background="professores__background--inovacaogestao" cardBackgoundHeader="card__header--inovacaogestao" prof={professores} />
+        <Rodape/>
       </Organizacao>
     </div>
   );
