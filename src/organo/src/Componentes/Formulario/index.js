@@ -4,7 +4,7 @@ import CampoSelecao from './CampoSelecao';
 import CampoTexto from './CampoTexto';
 import './Formulario.css'
 
-const Formulario = () => {
+const Formulario = (props) => {
 
     let opcoes = [
         {
@@ -43,7 +43,9 @@ const Formulario = () => {
 
     const salvar = (event)=>{
         event.preventDefault()
-        console.log(`Nome: ${nome}, Cargo: ${cargo}, Imagem: ${imagem}, time: ${time}`)
+        props.onChange({
+            nome, cargo, imagem, time
+        })
     }
     return (
         <form className="formulario" onSubmit={salvar}>
