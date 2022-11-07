@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Botao from './Botao';
 import CampoSelecao from './CampoSelecao';
 import CampoTexto from './CampoTexto';
@@ -35,14 +36,23 @@ const Formulario = () => {
         }
     ]
 
+    const [nome, setNome] = useState('')
+    const [cargo, setCargo] = useState('')
+    const [imagem, setImagem] = useState('')
+    const [time, setTime] = useState('')
+
+    const salvar = (event)=>{
+        event.preventDefault()
+        console.log(`Nome: ${nome}, Cargo: ${cargo}, Imagem: ${imagem}, time: ${time}`)
+    }
     return (
-        <form className="formulario">
+        <form className="formulario" onSubmit={salvar}>
             <p>Preencha os dados para criar o card do colaborador</p>
-            <CampoTexto label="Nome" placeholder="Digite seu nome" />
-            <CampoTexto label="Cargo" placeholder="Digite seu cargo" />
-            <CampoTexto label="Imagem" placeholder="Informe o caminho da imagem" valueDefault='./img/imagem.png'/>
-            <CampoSelecao label="Time" opcoes={opcoes} />
-            <Botao value="Criar card" />
+            <CampoTexto label="Nome" placeholder="Digite seu nome" value={nome} setValue={valor => setNome(valor)}/>
+            <CampoTexto label="Cargo" placeholder="Digite seu cargo" value={cargo} setValue={valor => setCargo(valor)}/>
+            <CampoTexto label="Imagem" placeholder="Informe o caminho da imagem" valueDefault='./img/imagem.png' value={imagem} setValue={valor => setImagem(valor)}/>
+            <CampoSelecao label="Time" opcoes={opcoes} value={time} setValue={valor => setTime(valor)}/>
+            <Botao value="Criar card" click={event=> salvar(event)}/>
         </form>
     )
 }
