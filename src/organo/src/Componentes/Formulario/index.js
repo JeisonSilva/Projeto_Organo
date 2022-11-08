@@ -64,7 +64,7 @@ const Formulario = (props) => {
             <p>Preencha os dados para criar o card do colaborador</p>
             <CampoTexto label="Nome" placeholder="Digite seu nome" value={nome} setValue={valor => setNome(valor)} />
             <CampoTexto label="Cargo" placeholder="Digite seu cargo" value={cargo} setValue={valor => setCargo(valor)} />
-            <CampoTexto label="Imagem" placeholder="Informe o caminho da imagem" valueDefault='./img/imagem.png' value={imagem} setValue={valor => setImagem(valor)} />
+            <CampoTexto label="Imagem" placeholder="Informe o caminho da imagem" valueDefault='https://organo-eight-psi.vercel.app/img/programador1.png' value={imagem} setValue={valor => setImagem(valor)} />
             <CampoSelecao label="Time" opcoes={opcoes} value={time} setValue={valor => setTime(valor)} />
             <Botao value="Criar card" click={event => salvar(event)} />
         </form>
