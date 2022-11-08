@@ -9,34 +9,33 @@ import { useState } from "react";
 
 
 function App() {
-  let professores = [
-    {
-      id: 1,
-      imagem: './img/programador1.png',
-      nome: 'Juliana Amoasei',
-      cargo: 'Desenvolvedora de software e instrutora'
-    },
-    {
-      id: 2,
-      imagem: './img/programador2.png',
-      nome: 'Daniel Artine',
-      cargo: 'Engenheiro de Software na Stone Age'
-    },
-    {
-      id: 3,
-      imagem: './img/programador3.png',
-      nome: 'Guilherme Lima',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura'
-    },
-    {
-      id: 4,
-      imagem: './img/programador4.png',
-      nome: 'Paulo Silveira',
-      cargo: 'Hipster e CEO da Alura'
-    }
-  ]
+  
 
-  const [colaboradores, setColaboradores] = useState([])
+  const [colaboradores, setColaboradores] = useState([
+    {
+      imagem:'https://organo-eight-psi.vercel.app/img/programador1.png',
+      nome: 'Juliana Amoasei',
+      cargo: 'Desenvolvedora de software e instrutora',
+      time: 'Programação'
+    },{
+      imagem: 'https://organo-eight-psi.vercel.app/img/programador2.png',
+      nome: 'Daniel Artine',
+      cargo: 'Engenheiro de Software na Stone Age',
+      time: 'Programação'
+    },
+    {
+      imagem: 'https://organo-eight-psi.vercel.app/img/programador3.png',
+      nome: 'Guilherme Lima',
+      cargo: 'Desenvolvedor Python e JavaScript na Alura',
+      time: 'Programação'
+    },
+    {
+      imagem: 'https://organo-eight-psi.vercel.app/img/programador4.png',
+      nome: 'Paulo Silveira',
+      cargo: 'Hipster e CEO da Alura',
+      time: 'Programação'
+    }
+  ])
 
   return (
     <div className="app">
