@@ -13,7 +13,7 @@ const CampoTexto = (props) => {
             <label>{props.label}</label>
             <input
                 type="text"
-                placeholder={`${props.placeholder} ${props.valueDefault == undefined ? '' : 'Exemplo:' + props.valueDefault}`}
+                placeholder={`${props.placeholder} ${props.valueDefault == undefined ? '' : props.valueDefault}`}
                 value={props.value}
                 onChange={digitar} />
         </div>
