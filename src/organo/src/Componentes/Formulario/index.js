@@ -43,6 +43,7 @@ const Formulario = (props) => {
 
     const salvar = (event) => {
         event.preventDefault()
+        
         props.onChange({
             nome, cargo, imagem, time
         })
